@@ -432,6 +432,8 @@ _worker_js__WEBPACK_IMPORTED_MODULE_9__["default"].prototype.toContainer = funct
 
       // Before: Create a padding div to push the element to the next page.
       if (rules.before) {
+        console.log('clientRect.top', clientRect.top);
+        console.log('pxPageHeight', pxPageHeight);
         var pad = (0,_utils_js__WEBPACK_IMPORTED_MODULE_10__.createElement)('div', {
           style: {
             display: 'block',
